@@ -16,8 +16,8 @@ public class ProductDaoImplTest extends TestCase {
 		Product product =new Product();
 		product.setPrice(100);
 		product.setQuantity(1);
-		product.setProductname("Water Bottle");
-		product.setProductdesc("Blue color - l litre");
+		product.setProductname("Samsung");
+		product.setProductdesc("GalaxyA7-Black");
 		product=productDao.saveProduct(product);
 		
 		assertTrue(product.getId()>0); //TC
